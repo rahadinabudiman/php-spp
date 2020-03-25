@@ -1,4 +1,10 @@
- <h2>Dashboard</h2>
+<?php 
+$ambilsiswa = $koneksi->query("SELECT COUNT(*) FROM siswa");
+while($pecahsiswa = $ambilsiswa->fetch_assoc()){
+
+
+?>
+<h2>Dashboard</h2>
  <div class="row">
 
             <!-- Earnings (Monthly) Card Example -->
@@ -8,7 +14,8 @@
                   <div class="row no-gutters align-items-center">
                     <div class="col mr-2">
                       <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Total Siswa</div>
-                      <div class="h5 mb-0 font-weight-bold text-gray-800">XXXXX</div>
+                      <div class="h5 mb-0 font-weight-bold text-gray-800"><?php echo $pecahsiswa['COUNT(*)']; ?></div>
+                    <?php } ?>
                     </div>
                     <div class="col-auto">
                       <i class="fas fa-user-check fa-2x text-gray-300"></i>
