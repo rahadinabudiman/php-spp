@@ -1,4 +1,5 @@
-<h2>Siswa</h2>
+<h2>Data Siswa</h2>
+<a href="index.php?halaman=tambahsiswa" class="fas fa-user-plus"> Tambah Siswa</a><br/>
 <div class="table-responsive">
 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
 	<thead>
@@ -34,7 +35,7 @@
 			<td><?php echo $pecah['nama']; ?> </td>
 			<td><?php echo $pecah['nama_kelas']; ?></td>
 			<td><?php echo $pecah['no_telp']; ?></td>
-			<td><a href="index.php?halaman=ubahsiswa" class="btn btn-info btn-circle btn-sm"><i class="fas fa-info-circle"></i></a> | <a href="index.php?halaman=hapussiswa" class="btn btn-danger btn-circle btn-sm"> <i class="fas fa-trash"></i></a></td>
+			<td><a href="index.php?halaman=ubahsiswa&id=<?php echo $pecah['nisn'];?>" class="btn btn-info btn-circle btn-sm"><i class="fas fa-info-circle"></i></a> | <a href="index.php?halaman=hapussiswa&id=<?php echo $pecah['nisn'];?>" class="btn btn-danger btn-circle btn-sm"> <i class="fas fa-trash"></i></a></td>
 		</tr>
 	</tbody>
 	<?php $nomor++ ?>

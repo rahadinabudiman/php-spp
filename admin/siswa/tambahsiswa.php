@@ -1,14 +1,3 @@
-<script type="text/javascript">
-    function previewImage() {
-    document.getElementById("image-preview").style.display = "block";
-    var oFReader = new FileReader();
-     oFReader.readAsDataURL(document.getElementById("image-source").files[0]);
- 
-    oFReader.onload = function(oFREvent) {
-      document.getElementById("image-preview").src = oFREvent.target.result;
-    };
-  };
-</script>
 <div class="row">
           <img class="col-lg-4" id="image-preview" name="foto">
           <div class="col-lg-7">
