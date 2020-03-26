@@ -298,6 +298,9 @@ include '../koneksi/koneksi.php';
                 elseif ($_GET['halaman']=="ubahsiswa"){
                   include "siswa/ubahsiswa.php";
                 }
+                elseif ($_GET['halaman']=="tambahsiswa") {
+                  include "siswa/tambahsiswa.php";
+                }
                 elseif ($_GET['halaman']=="bayarspp"){
                   include "spp/spp.php";
                 }
@@ -359,6 +362,7 @@ include '../koneksi/koneksi.php';
   <!-- Page level custom scripts -->
   <script src="../js/demo/chart-area-demo.js"></script>
   <script src="../js/demo/chart-pie-demo.js"></script>
+  <script src="../js/main.js"></script>
 
 </body>
 
