@@ -11,10 +11,10 @@ $pecah = $ambil->fetch_assoc();
               </div>
               <form class="user" method="post" enctype="multipart/form-data">
                 <div class="form-group row">
-                  <div class="col-sm-6 mb-3 mb-sm-0"> NISN : 
+                  <div class="col-sm-6 mb-3 mb-sm-0">NISN : 
                     <input type="text" class="form-control form-control-user" name="nisn" value="<?php echo $pecah['nisn']; ?>" readonly>
                   </div>
-                  <div class="col-sm-6"> NIS : 
+                  <div class="col-sm-6">NIS : 
                     <input type="text" class="form-control form-control-user" name="nis" value="<?php echo $pecah['nis']; ?>">
                   </div>
                 </div>
