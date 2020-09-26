@@ -1,5 +1,5 @@
 <h2>Data Siswa</h2>
-<a href="index.php?halaman=tambahsiswa" class="fas fa-user-plus"> Tambah Siswa</a><br/>
+<a href="index.php?halaman=tambahsiswa" class="fas fa-user-plus">Tambah Siswa</a><br/>
 <div class="table-responsive">
 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
 	<thead>
