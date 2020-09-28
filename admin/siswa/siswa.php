@@ -4,7 +4,7 @@
 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
 	<thead>
 		<tr>
-			<th>No</th>
+			<th>No Urut</th>
 			<th>NISN</th>
 			<th>NIS</th>
 			<th>Nama Peserta Didik</th>
